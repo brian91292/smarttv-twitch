@@ -360,7 +360,7 @@
         STR_SWITCH_USER = STR_SWITCH_USER + STR_KEY_UP_DOWN;
         STR_CONTROLS_MAIN_3 = STR_CONTROLS_MAIN_3 + STR_GUIDE;
         STR_GOBACK = STR_GOBACK_START;
-        STR_PAYPAL = '<div style="vertical-align: middle;"><img style="vertical-align: middle; display: inline-block; width: 4%;" alt="" src="https://brian91292.github.io/SmartTwitchTV/release/githubio/images/paypal.png"><div style="vertical-align: middle; display: inline-block;">' + STR_PAYPAL_SUMMARY + '</div></div>';
+        STR_PAYPAL = '<div style="vertical-align: middle;"><img style="vertical-align: middle; display: inline-block; width: 4%;" alt="" src="https://fgl27.github.io/SmartTwitchTV/release/githubio/images/paypal.png"><div style="vertical-align: middle; display: inline-block;">' + STR_PAYPAL_SUMMARY + '</div></div>';
 
         STR_CONTROLS_PLAY_0 = STR_DIV_TITLE + STR_PLAYER + '</div>' +
             STR_DIV_MIDLE_LEFT +
@@ -1594,7 +1594,7 @@
         xmlHttp.send(null);
     }
 
-    var AddCode_redirect_uri = 'https://brian91292.github.io/smarttv-twitch/release/githubio/login/twitch.html';
+    var AddCode_redirect_uri = 'https://fgl27.github.io/smarttv-twitch/release/githubio/login/twitch.html';
     //Get yours client id and secret from https://docs.aws.amazon.com/lumberyard/latest/userguide/chatplay-generate-twitch-client-id.html
     var AddCode_clientId = "ypvnuqrh98wqz1sr0ov3fgfu4jh1yx"; //public but get yours link above is free
     var AddCode_client_secret; //none public get yours link above is free
@@ -4845,7 +4845,7 @@
         try {
             Play_avplay.stop();
             Play_avplay.close();
-            Play_avplay.open("https://brian91292.github.io/smarttv-twitch/release/githubio/images/temp.mp4");
+            Play_avplay.open("https://fgl27.github.io/smarttv-twitch/release/githubio/images/temp.mp4");
         } catch (e) {
             console.log(e + " Play_SetAvPlayGlobal()");
         }

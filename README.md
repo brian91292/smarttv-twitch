@@ -60,13 +60,13 @@ Project Web Dependencies
 
 ## [How the application looks](https://github.com/fgl27/smarttv-twitch/tree/master/screenshot)
 The application never stops receiving updates so the below images could be outdated
-![Live](https://brian91292.github.io/smarttv-twitch/screenshot/animated.gif)
+![Live](https://fgl27.github.io/smarttv-twitch/screenshot/animated.gif)
 
 Twitch.TV authentication key
 ===============
 
-![Add_key](https://brian91292.github.io/smarttv-twitch/screenshot/Add_key.png)
-![Add_key](https://brian91292.github.io/smarttv-twitch/screenshot/Add_key2.png)
+![Add_key](https://fgl27.github.io/smarttv-twitch/screenshot/Add_key.png)
+![Add_key](https://fgl27.github.io/smarttv-twitch/screenshot/Add_key2.png)
 
 The user can add a authentication key if you have the twitch password for that user (aka you are it).
 That key will be used to access twitch content for that account, when accessing twitch authentication site it will show:
@@ -100,7 +100,7 @@ The key is generated on the page below. The page receives a key after you use it
 
 Controls
 ==============
-![control](https://brian91292.github.io/smarttv-twitch/screenshot/controler.png)
+![control](https://fgl27.github.io/smarttv-twitch/screenshot/controler.png)
 
 The Application is tested with the above remotes (Any Samsung remote that has those same key/function must control the app even if the remote looks a little different)
 
@@ -111,7 +111,7 @@ The key **INFO** is also mapped in the app with the same functions as the **GUID
 
 
 ## Controls
-![Main](https://brian91292.github.io/smarttv-twitch/screenshot/controls.png)
+![Main](https://fgl27.github.io/smarttv-twitch/screenshot/controls.png)
 ==============
 
 Installation instructions:
@@ -188,11 +188,11 @@ If you are on ubuntu 19 or above 20.4 libwebkitgtk-1.0-0 ins't availeble, in tha
 * Open **Tizen Package Manager** to start installing the bellow (some may already be installed by default)
 * Main tab **(Main SDK)** Install **Tizen SDK tools** (Emulator manager not necessary),  **(on Linux it may request you to use apt-get to install missing dependencies)**
 
-![mainsdk](https://brian91292.github.io/smarttv-twitch/screenshot/install/sdk_2.png)
+![mainsdk](https://fgl27.github.io/smarttv-twitch/screenshot/install/sdk_2.png)
 
 * Second tab **(Extension SDK)** under **TV Extensions-5.X** (or wherever X.X TV version there is) install **Web app. Development**, install **Samsung Certificate Extension** and under **TV Extension Tools** install **Web app. Tools**
 
-![extensionsdk](https://brian91292.github.io/smarttv-twitch/screenshot/install/sdk_4.png)
+![extensionsdk](https://fgl27.github.io/smarttv-twitch/screenshot/install/sdk_4.png)
 
 *Tizen is always changing the packages that are available some packages may became deprecated and not show anymore, proceed with the installation process even if packages aren't available for you, report a issue if the application doesn't install but make sure you go to all steps at least once again after a problem just revise it all before reporting.*
 * After everything finishes installing as you close the package manager it will ask if you want to open the **Tizen Studio** - click YES to open it. On windows it may ask you to give firewall permission for Tizen.
@@ -202,9 +202,9 @@ If you are on ubuntu 19 or above 20.4 libwebkitgtk-1.0-0 ins't availeble, in tha
 * Open **Tizen Studio**, then start the device manager by clicking on the drop-down menu that has the default option **"No target"** and select **"Launch remote device manager"**. If you don't find the device manager on the studio, just open it as a separate app - it must be installed just like the studio.
 * On the device manager, click **Scan** and it will find your TV if it is set up is ok and on the same network. If it doesn't find it, try to add it manually by clicking on the  **+** option and add your TV IP address. Don't change the **Port**. To get the address, go to the main menu > network > Network status... wait a moment extra options will be loaded, click on **IP Settings** read your TV's IP Address
 
-![device_manager](https://brian91292.github.io/smarttv-twitch/screenshot/install/device_manager.png)
+![device_manager](https://fgl27.github.io/smarttv-twitch/screenshot/install/device_manager.png)
 * After having the TV IP showing in the screen, click in to connect, when connect you see something like the bellow
-![device_manager](https://brian91292.github.io/smarttv-twitch/screenshot/install/device_manager2.png)
+![device_manager](https://fgl27.github.io/smarttv-twitch/screenshot/install/device_manager2.png)
 
 If you have a problem on connecting refer back to **[Account and Downloads:](https://github.com/fgl27/smarttv-twitch#account-and-downloads)**, without properly enabling **developer mode** on the TV this will fail.
 
@@ -214,21 +214,21 @@ If you have a problem on connecting refer back to **[Account and Downloads:](htt
 * **Tizen Studio** > Tools > Certificate Manager > + > select/click **Tizen** > add a certificate name ... next > create a new author.. next > setup name password etc... next > Use the default Tizen... Finish > **If Success** you see a message **The new certficate profile has been sucesfully created.** click OK
 * Select the certificate it must have a check mark ✔️ on the front of it (that means you have selected it) close the Certificate Manager
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra1.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra1.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra2.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra2.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra3.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra3.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra4.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra4.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra5.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra5.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra6.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra6.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra7.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra7.png)
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate_extra8.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate_extra8.png)
 
 * **If you click on finish and you see the image above, just go to the next step [Setup the application:](https://github.com/fgl27/smarttv-twitch#setup-the-application)**
 
@@ -236,15 +236,15 @@ If you have a problem on connecting refer back to **[Account and Downloads:](htt
 
 * If when you click on **Finish** the app just tries and doesn't do anything, it is because it has an issue creating an Author - this is a bug of Tizen. To fix that, generate a certificate using this recommendation [Creating Certificates Samsung site](https://developer.samsung.com/galaxy-watch/develop/getting-certificates/create), but after you finish don't use that certificate because it may not work to install the app, repeat the process of creating a **Tizen** certificate ... Certificate Manager > + > select/click **Tizen** > here use the author created before by choosing "select existing..."
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate2.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate2.png)
 
 * Now find the folder that has the name "SamsungCertificate", open the folder inside (it has the name chosen when creating a Samsung profile) and choose the **author.p12 ** file
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate3.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate3.png)
 
 * Add the same password used before and click next > Use the default Tizen... Finish > **Success** click OK, it must be finished now
 
-![certificate](https://brian91292.github.io/smarttv-twitch/screenshot/install/certificate4.png)
+![certificate](https://fgl27.github.io/smarttv-twitch/screenshot/install/certificate4.png)
 
 
 ## Setup the application:
@@ -253,11 +253,11 @@ If you have a problem on connecting refer back to **[Account and Downloads:](htt
 
 * Making the app, Top menu > File > New > Tizen Project > click twice in **Template** > click twice in **TV** > click twice in **Web Application** > click twice in **Empty** > chose a project name "anyname" (avoid special character and spaces) ....click finish
 
-![install_app2](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app2.png)
-![install_app3](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app3.png)
-![install_app4](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app4.png)
-![install_app5](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app5.png)
-![install_app6](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app6.png)
+![install_app2](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app2.png)
+![install_app3](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app3.png)
+![install_app4](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app4.png)
+![install_app5](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app5.png)
+![install_app6](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app6.png)
 
 * Wait for it to load
 * Back on **Tizen Studio**, left click on the folder symbol with **AnyName-X.0** on the left corner under project explorer, just to select the folder (**AnyName-X.0** is the default name given when you created a project in the last step; if you used a different name, click on that)
@@ -265,17 +265,17 @@ If you have a problem on connecting refer back to **[Account and Downloads:](htt
 * Wait for it to load
 * The name of the folder **AnyName-X.0** changes to **AnyName-tv-samsung-X.0**
 
-![install_app8_1](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app8_1.png)
-![install_app8_2](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app8_2.png)
-![install_app8_3](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app8_3.png)
-![install_app9](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app9.png)
+![install_app8_1](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app8_1.png)
+![install_app8_2](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app8_2.png)
+![install_app8_3](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app8_3.png)
+![install_app9](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app9.png)
 
 ## Install the application:
 
 * Click on that folder **AnyName-tv-samsung-X.0** left click, then right click > Run as > **1 Tizen Web Application**, the installation will start
 * If everything goes OK, the app will be opened in a few seconds on the TV, and you can start using it
 
-![install_app10](https://brian91292.github.io/smarttv-twitch/screenshot/install/install_app10.png)
+![install_app10](https://fgl27.github.io/smarttv-twitch/screenshot/install/install_app10.png)
 
 * If it fails during the installation, make sure you don't have any other Twitch.TV applications installed on the TV. To uninstall the app manually, just open the **"apps"** application, find all Twitch.TV apps you have installed in **"my app"** tab, hold down the enter/select key on the top of the app and choose delete. After you have deleted all Twitch.TV apps, try to install again.
 * This app can update itself 99% of the time, so this installation process will only have to be redone after a major update where the changes cannot be done by the app itself. The app will warn the user if there is a need to update it manually by performing the installation steps again.
@@ -285,11 +285,11 @@ If you have a problem on connecting refer back to **[Account and Downloads:](htt
 Donations
 ==============
 
-![Main](https://brian91292.github.io/SmartTwitchTV/screenshot/paypal.png) **Paypal email link (clickable):** [fglfgl27@gmail.com](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=fglfgl27@gmail.com&lc=US&no_note=0&item_name=Donate+to+thanks+for+the+Twitch+app&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
+![Main](https://fgl27.github.io/SmartTwitchTV/screenshot/paypal.png) **Paypal email link (clickable):** [fglfgl27@gmail.com](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=fglfgl27@gmail.com&lc=US&no_note=0&item_name=Donate+to+thanks+for+the+Twitch+app&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted)
 #
-![Main](https://brian91292.github.io/SmartTwitchTV/screenshot/bitcoin.png)**Bitcoin walet adress (or use bellow QR code):** 1DuhCT6L3VfBtFcS8FNfVXgBzE2rwCPx3x
+![Main](https://fgl27.github.io/SmartTwitchTV/screenshot/bitcoin.png)**Bitcoin walet adress (or use bellow QR code):** 1DuhCT6L3VfBtFcS8FNfVXgBzE2rwCPx3x
 
-![Main](https://brian91292.github.io/SmartTwitchTV/screenshot/chart.png)
+![Main](https://fgl27.github.io/SmartTwitchTV/screenshot/chart.png)
 
 ## How to get the IP
 Linux terminal command:
@@ -297,16 +297,16 @@ Linux terminal command:
 	hostname –I
 
 Result
-![ip_1](https://brian91292.github.io/smarttv-twitch/screenshot/etc/ubuntu_ip.png)
+![ip_1](https://fgl27.github.io/smarttv-twitch/screenshot/etc/ubuntu_ip.png)
 
 Windows terminal command:
 
 	ipconfig
 
 Result
-![ip_2](https://brian91292.github.io/smarttv-twitch/screenshot/etc/windows_ip.png)
+![ip_2](https://fgl27.github.io/smarttv-twitch/screenshot/etc/windows_ip.png)
 
 Mac System Preferences > Network.<br>
 
 Result<br>
-![ip_3](https://brian91292.github.io/smarttv-twitch/screenshot/etc/mac_ip.jpg)
+![ip_3](https://fgl27.github.io/smarttv-twitch/screenshot/etc/mac_ip.jpg)

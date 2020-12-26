@@ -245,7 +245,7 @@ function Play_SetAvPlayGlobal() {
     try {
         Play_avplay.stop();
         Play_avplay.close();
-        Play_avplay.open("https://brian91292.github.io/smarttv-twitch/release/githubio/images/temp.mp4");
+        Play_avplay.open("https://fgl27.github.io/smarttv-twitch/release/githubio/images/temp.mp4");
     } catch (e) {
         console.log(e + " Play_SetAvPlayGlobal()");
     }
