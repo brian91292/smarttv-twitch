@@ -2,7 +2,7 @@
 
 var baseUrlCode = 'https://id.twitch.tv/oauth2/authorize?';
 var type_code = 'code';
-var client_id = 'ypvnuqrh98wqz1sr0ov3fgfu4jh1yx';
+var client_id = 'p3s4bbfcwe6bba581z0coq40wnycs6';
 var redirect_uri = 'https://brian91292.github.io/smarttv-twitch/release/githubio/login/twitch.html';
 var scope = 'user_read+user_follows_edit+user_subscriptions';
 var force_verify = 'true';
