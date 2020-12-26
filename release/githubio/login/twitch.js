@@ -18,7 +18,7 @@ function Start() {
 
 function ProcessStart() {
     console.log("ProcessStart");
-    if (window.location.href.indexOf('code') !== -1) processCode(window.location.href);
+    if (window.location.href.indexOf('access_token') !== -1) processCode(window.location.href);
     else document.getElementById("Authorize").addEventListener("click", autorizationClick);
 }
 

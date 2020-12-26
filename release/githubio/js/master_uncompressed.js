@@ -1094,29 +1094,33 @@
     }
 
     function AddCode_requestTokens() {
-        var theUrl = AddCode_UrlToken + 'grant_type=authorization_code&client_id=' +
-            encodeURIComponent(AddCode_clientId) + '&client_secret=' + encodeURIComponent(AddCode_client_secret) +
-            '&code=' + encodeURIComponent(AddCode_Code) + '&redirect_uri=' + AddCode_redirect_uri;
+        // var theUrl = AddCode_UrlToken + 'grant_type=authorization_code&client_id=' +
+        //     encodeURIComponent(AddCode_clientId) + '&client_secret=' + encodeURIComponent(AddCode_client_secret) +
+        //     '&code=' + encodeURIComponent(AddCode_Code) + '&redirect_uri=' + AddCode_redirect_uri;
 
-        AddCode_BasexmlHttpGet(theUrl, 'POST', 0, null, AddCode_requestTokensReady);
+        // AddCode_BasexmlHttpGet(theUrl, 'POST', 0, null, AddCode_requestTokensReady);
+        AddUser_UsernameArray[Main_values.Users_AddcodePosition].access_token = AddCode_Code;
+        AddUser_UsernameArray[Main_values.Users_AddcodePosition].refresh_token = 0; //response.refresh_token;
+        AddCode_loadingDataTry = 0;
+        AddCode_CheckOauthToken();
     }
 
-    function AddCode_requestTokensReady(xmlHttp) {
-        if (xmlHttp.readyState === 4) {
-            if (xmlHttp.status === 200) {
-                AddCode_requestTokensSucess(xmlHttp.responseText);
-            } else AddCode_requestTokensError();
-            return;
-        }
-    }
+    // function AddCode_requestTokensReady(xmlHttp) {
+    //     if (xmlHttp.readyState === 4) {
+    //         if (xmlHttp.status === 200) {
+    //             AddCode_requestTokensSucess(xmlHttp.responseText);
+    //         } else AddCode_requestTokensError();
+    //         return;
+    //     }
+    // }
 
-    function AddCode_requestTokensError() {
-        AddCode_loadingDataTry++;
-        if (AddCode_loadingDataTry < AddCode_loadingDataTryMax) {
-            AddCode_requestTokens();
-        } else AddCode_requestTokensFail();
+    // function AddCode_requestTokensError() {
+    //     AddCode_loadingDataTry++;
+    //     if (AddCode_loadingDataTry < AddCode_loadingDataTryMax) {
+    //         AddCode_requestTokens();
+    //     } else AddCode_requestTokensFail();
 
-    }
+    // }
 
     function AddCode_requestTokensFail() {
         Main_HideLoadDialog();
@@ -1144,13 +1148,13 @@
         Main_SaveValues();
     }
 
-    function AddCode_requestTokensSucess(responseText) {
-        var response = JSON.parse(responseText);
-        AddUser_UsernameArray[Main_values.Users_AddcodePosition].access_token = response.access_token;
-        AddUser_UsernameArray[Main_values.Users_AddcodePosition].refresh_token = response.refresh_token;
-        AddCode_loadingDataTry = 0;
-        AddCode_CheckOauthToken();
-    }
+    // function AddCode_requestTokensSucess(responseText) {
+    //     var response = JSON.parse(responseText);
+    //     AddUser_UsernameArray[Main_values.Users_AddcodePosition].access_token = response.access_token;
+    //     AddUser_UsernameArray[Main_values.Users_AddcodePosition].refresh_token = response.refresh_token;
+    //     AddCode_loadingDataTry = 0;
+    //     AddCode_CheckOauthToken();
+    // }
 
     function AddCode_CheckOauthToken() {
         AddCode_BasexmlHttpGetValidate(AddCode_CheckOauthTokenReady, Main_values.Users_AddcodePosition, 0);
