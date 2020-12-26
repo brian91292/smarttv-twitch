@@ -2,7 +2,7 @@
 
 var baseUrlCode = 'https://id.twitch.tv/oauth2/authorize?';
 //var type_code = 'code';
-var type_token = 'token id_token';
+var type_token = 'token';
 var client_id = 'p3s4bbfcwe6bba581z0coq40wnycs6';
 var redirect_uri = 'https://brian91292.github.io/smarttv-twitch/release/githubio/login/twitch.html';
 var scope = 'openid user_read user_follows_edit user_subscriptions';
@@ -31,7 +31,7 @@ function autorizationClick() {
 
 function processCode(pageUrl) {
     console.log("processCode");
-    code = pageUrl.match(/access_token=(\w+)/);
+    code = pageUrl.match(/#access_token=(\w+)/);
     if (code) {
         code = code[1];
         document.getElementById('Authorize').classList.add('hidden');
