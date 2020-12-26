@@ -1596,7 +1596,7 @@
 
     var AddCode_redirect_uri = 'https://brian91292.github.io/smarttv-twitch/release/githubio/login/twitch.html';
     //Get yours client id and secret from https://docs.aws.amazon.com/lumberyard/latest/userguide/chatplay-generate-twitch-client-id.html
-    var AddCode_clientId = "ypvnuqrh98wqz1sr0ov3fgfu4jh1yx"; //public but get yours link above is free
+    var AddCode_clientId = "p3s4bbfcwe6bba581z0coq40wnycs6"; //public but get yours link above is free
     var AddCode_client_secret; //none public get yours link above is free
     var AddCode_client_backup;
 
